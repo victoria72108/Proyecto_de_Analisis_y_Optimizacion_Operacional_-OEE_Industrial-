@@ -1,82 +1,3 @@
-proyectos en el README, utiliza esta estructura resumida para cada uno:
-1. Título del Proyecto (Ej: Análisis de Churn de Clientes en Telecomunicaciones)
-2. El Problema de Negocio: Una frase que explique qué problema querías resolver.
-3. Tecnologías utilizadas: Inserta íconos o etiquetas simples (SQL, Tableau, Pandas).
-4. Resultados / Insights Clave: Qué descubriste o qué valor entregó tu análisis.
-5. Enlace: Un llamado a la acción que diga [Ver código completo ➔](url-del-repo).
-Si quieres, podemos empezar a redactar la estructura de ese README.md principal.
-
-------------------------------------------
-
-
-
-# 🏭 Proyecto de Análisis y Optimización Operacional (OEE Industrial)
-
-## 📌 El Desafío de Negocio (Exploración a Ciegas)
-A diferencia de los proyectos tradicionales con requerimientos definidos, este análisis comenzó con una base de datos de producción de **6,924 filas y 9 columnas** sin una pregunta de negocio inicial.
-
-El verdadero desafío técnico y analítico fue enfrentarse a la incertidumbre: explorar la información desde cero, comprender los fundamentos de la analítica industrial, definir las preguntas correctas y transformar datos crudos en un cuadro de mando estructurado para la toma de decisiones ejecutivas.
-
----
-
-## 🛠️ Tecnologías y Herramientas
-* **Procesamiento y Limpieza:** Microsoft Excel (Tablas de datos, Funciones lógicas).
-* **Análisis Exploratorio:** Tablas Dinámicas y Modelado de Datos Auxiliares.
-* **Visualización / Dashboard:** Microsoft Excel (Gráficos dinámicos, Segmentadores de tiempo y KPI Cards).
-* **Entregable Alternativo:** Reporte Ejecutivo en PDF (disponible en la carpeta `/dashboard`).
-
----
-
-## 📐 Marco Conceptual: ¿Qué estamos midiendo?
-Para auditar la planta, implementé el indicador global **OEE (Overall Equipment Effectiveness)**, el cual calcula la eficiencia industrial cruzando tres pilares clave:
-
-* **Disponibilidad:** `Horas Productivas / Horas Programadas`
-* **Productividad:** `Piezas Buenas / Piezas Programadas`
-* **Calidad:** `Piezas Buenas / Total de Piezas Producidas`
-
-> 💡 *Además, se analizaron métricas periféricas como la Tasa de Producción, Tiempo de Inactividad y Tasa de Rechazo.*
-
----
-
-## 🗃️ Preparación y Calidad de los Datos
-La fase de preparación se enfocó en asegurar la consistencia antes de agregar volumen al análisis:
-
-* **Estructura:** Datos originales distribuidos en variables temporales (Fechas), operativas (Líneas 1-3, Máquinas 1-12), de tiempo (Horas decimales) y volumétricas (Piezas enteras).
-* **Calidad (Data Quality):** Se realizó una auditoría buscando registros nulos, duplicados o inconsistencias numéricas. Al presentar una estructura limpia, no requirió eliminación de registros.
-* **Ingeniería de Características (Feature Engineering):** Se crearon las variables auxiliares **Año** y **Mes** a partir de la fecha original para habilitar el análisis de tendencias temporales.
-
----
-
-## 📊 Análisis y Descubrimientos Clave (EDA)
-A través de la construcción de tablas dinámicas en una hoja de control dedicada, se resolvieron las siguientes incógnitas:
-
-* **Desempeño General:** El OEE global de la planta se situó en **[44%]**.
-* **El Punto Débil Operacional:** El componente que representa la mayor oportunidad de mejora es **[Disponibilidad / Productividad / Calidad]**.
-* **Líneas y Máquinas:** La **Línea [X]** presentó el mejor desempeño, mientras que la **Máquina [X]** requiere atención inmediata debido a un bajo rendimiento en **[Disponibilidad / Calidad]**.
-
-### 📉 Vista del Dashboard
-<!-- Deja esta línea para insertar tu imagen más adelante -->
-![Dashboard de Excel](ruta/a/tu/imagen.png) 
-
----
-
-## 🎯 Plan de Acción Propuesto (Call to Action)
-Con base en los hallazgos del dashboard, se estructuraron las siguientes propuestas de mejora para los líderes de Producción y Mantenimiento:
-
-* **[Acción 1]:** [Ejemplo: Implementar mantenimiento preventivo en la máquina X para reducir horas detenidas].
-* **[Acción 2]:** [Ejemplo: Capacitación en control de calidad en la línea X para disminuir la tasa de rechazo].
-
----
-
-## 🧠 Aprendizajes del Proyecto
-Este ejercicio consolidó mi capacidad para:
-1. Definir objetivos de negocio donde no existen requerimientos iniciales.
-2. Dominar el ecosistema de métricas industriales (OEE).
-3. Diseñar productos de datos orientados a perfiles de alta gerencia (dashboards ejecutivos).
-
-
-
-----------------------------------------------------------------
 # 🏭 Proyecto de Análisis y Optimización Operacional (OEE Industrial)
 
 ## 📌 El desafío de negocio: explorar sin una pregunta definida
@@ -97,7 +18,7 @@ El objetivo fue transformar los datos en indicadores y visualizaciones que facil
 - **Análisis exploratorio:** tablas dinámicas, campos calculados y variables auxiliares.
 - **Visualización:** gráficos dinámicos, tarjetas KPI y segmentadores.
 - **Navegación:** hipervínculos entre dashboards.
-- **Entregables:** archivo Excel y reporte ejecutivo en PDF.
+- **Entregables:** archivo Excel.
 
 ---
 
@@ -165,8 +86,18 @@ El proyecto contempla cuatro dashboards, diseñados para consultar los indicador
 
 Las visualizaciones incorporan gráficos, tarjetas de indicadores, segmentadores temporales y navegación entre hojas.
 
+> **⚠️ NOTA:** Para poder visualizar e interactuar con el Dashboard por completo, por favor **[descarga el archivo Excel aquí](Proyecto_de_Análisis_y_Optimizacion_Operacional_(OEE_Industrial).xlsx)**. ¡Muchas gracias!
+
 <!-- Sustituir la ruta por la imagen del dashboard cuando esté disponible. -->
-![Dashboard de Excel](ruta/a/tu/imagen.png)
+
+![Dashboard de OEE](imagenes/1_OEE.png)
+
+![Dashboard de Disponibilidad](imagenes/2_Diponibilidad.png)
+
+![Dashboard de Productividad](imagenes/3_Productividad.png)
+
+![Dashboard de Calidad](imagenes/4_Calidad.png)
+
 
 ---
 
@@ -205,3 +136,5 @@ Este ejercicio permitió desarrollar habilidades para:
 - **Archivo Excel:** datos, cálculos, tablas dinámicas y dashboards del proyecto.
 
 Los enlaces a los archivos se incorporarán una vez definidas las rutas finales del repositorio.
+
+
