@@ -131,9 +131,9 @@ Este ejercicio permitió desarrollar habilidades para:
 ## 📁 Contenido del repositorio
 
 - **Resumen del caso:** contexto, metodología y principales hallazgos.
-- **Dashboard en PDF:** versión ejecutiva para explorar rápidamente los resultados.
+- **Dashboard en imagenes:** versión para explorar rápidamente los resultados.
 - **Archivo Excel:** datos, cálculos, tablas dinámicas y dashboards del proyecto.
 
-Los enlaces a los archivos se incorporarán una vez definidas las rutas finales del repositorio.
+
 
 
