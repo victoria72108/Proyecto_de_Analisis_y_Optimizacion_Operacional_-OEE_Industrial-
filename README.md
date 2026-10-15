@@ -88,7 +88,6 @@ Las visualizaciones incorporan gráficos, tarjetas de indicadores, segmentadores
 
 > **⚠️ NOTA:** Para poder visualizar e interactuar con el Dashboard por completo, por favor **[descarga el archivo Excel aquí](Proyecto_de_Análisis_y_Optimizacion_Operacional_(OEE_Industrial).xlsx)**. ¡Muchas gracias!
 
-<!-- Sustituir la ruta por la imagen del dashboard cuando esté disponible. -->
 
 ![Dashboard de OEE](imagenes/1_OEE.png)
 
