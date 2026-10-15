@@ -91,7 +91,7 @@ Las visualizaciones incorporan gráficos, tarjetas de indicadores, segmentadores
 
 ![Dashboard de OEE](imagenes/1_OEE.png)
 
-![Dashboard de Disponibilidad](imagenes/2_Diponibilidad.png)
+![Dashboard de Disponibilidad](imagenes/2_Disponibilidad.png)
 
 ![Dashboard de Productividad](imagenes/3_Productividad.png)
 
